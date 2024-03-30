@@ -1,0 +1,55 @@
+/*Resetando configuração padrão do CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e1e1e1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+.titulo > h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.titulo {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 1.3rem;
+  background-color: #cecccc;
+  border-radius: 5px;
+}
+
+.infos {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 50%;
+  line-height: 28px;
+}
+
+section {
+  padding-top: 7rem;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+}
