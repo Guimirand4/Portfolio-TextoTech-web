@@ -38,6 +38,11 @@ a {
   font-size: 1.3rem;
   background-color: #cecccc;
   border-radius: 5px;
+  padding: 2px;
+}
+
+.menu a:hover {
+  background-color: #808080;
 }
 
 .infos {
